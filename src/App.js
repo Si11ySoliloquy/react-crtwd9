@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import "./style.css";
+import coke from './images/coke.jpg';
 
 export default function App() {
   return (
@@ -9,8 +10,8 @@ export default function App() {
       <p style ={{color:'white'}}>Start editing to see some magic happen :)</p>
       <h2 style ={{color:'white'}}> THIS IS A LINK</h2>
       <a href="https://twitter.com/supersillly/status/1651907768654213129" style ={{color:'white'}}>  
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter Logo">
-        </img>
+      <img src={coke} alt="Twitter Logo"/>
+
       </a>
     </div>
     
