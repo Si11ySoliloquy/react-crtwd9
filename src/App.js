@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
-import coke from './z_images/coke.jpg';
+import head from './z_images/4head.jpg';
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
         href="https://twitter.com/supersillly/status/1651907768654213129"
         style={{ color: 'white' }}
       >
-        <img src={coke} alt="Twitter Logo" />
+        <img src={'head'} alt="Twitter Logo" />
       </a>
     </div>
   );
