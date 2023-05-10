@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
-import head from './z_images/4head.jpg';
 
 export default function App() {
   return (
@@ -15,7 +14,7 @@ export default function App() {
         href="https://twitter.com/supersillly/status/1651907768654213129"
         style={{ color: 'white' }}
       >
-        <img src={'head'} alt="Twitter Logo" />
+        <img src={'1dbf8ca743c46f13b64f82ccd36b0b8d.jpg'} alt="Twitter Logo" />
       </a>
     </div>
   );
